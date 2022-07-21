@@ -11,7 +11,7 @@ body{
 
 nav{
     background-color: black;
-    height: 80px;
+    height: 12 vh;
 }
 
 .logo{
@@ -45,7 +45,33 @@ ul li {
     font-weight: bold;
     margin: 0px 10px;
     font-family: 'Cormorant SC', serif;
-    border-right: 2px solid white;
+    border-right: 2px solid rgb(255, 255, 255);
     padding-right: 10px;
 
+}
+
+.bottom-bar{
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+#progress-bar{
+    width: 80vw;
+}
+
+.icons{
+    margin-top: 15px;
+}
+i{
+   margin: 5px;
 }

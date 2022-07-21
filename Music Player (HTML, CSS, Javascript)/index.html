@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4111af54a3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Studio Music Player</title>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -18,6 +21,22 @@
             <li>Premium</li>
         </ul>
     </nav>
+
+    <div class="container">
+        <h1>No CopyRight Sound</h1>
+        <div class="song-list"></div>
+        <div class="right-banner"></div>
+    </div>
+
+    <div class="bottom-bar">
+        <input type="range" name="progress-bar" id="progress-bar" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-forward"></i>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
